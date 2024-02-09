@@ -1,3 +1,4 @@
 *.env
 locations.py
 output/*
+*.png
