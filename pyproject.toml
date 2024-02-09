@@ -6,8 +6,15 @@ authors = ["dsimonds-bot <davesimonds6@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
+load-dotenv = "^0.1.0"
+matplotlib = "^3.8.2"
+basemap = "^1.4.0"
+numpy = "^1.26.4"
 
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
